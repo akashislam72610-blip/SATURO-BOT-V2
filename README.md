@@ -1,13 +1,10 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/lazyanik/SATURO-BOT-V2/main/assets/header-hearts.svg" width="100%" alt="SATURO BOT V2 Header">
+<img src="./assets/header-hearts.svg" width="100%" alt="SATURO BOT V2 Header">
 
 <img src="https://i.ibb.co/RQ28H2p/banner.png" alt="SATURO BOT V2 Banner">
 
-<h1>
-  <img src="./dashboard/images/logo-non-bg.png" width="24px">
-  SATURO BOT V2 — Enhanced Edition
-</h1>
+<h1>SATURO BOT V2 — Enhanced Edition</h1>
 
 <a href="https://github.com/lazyanik/SATURO-BOT-V2">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=800&color=A78BFA&center=true&vCenter=true&width=700&lines=A+feature-rich+Facebook+Messenger+bot+framework;Web+dashboard+%2B+MongoDB+%2F+SQLite+support;Modern+%E2%9A%A1+Hardened+%F0%9F%9B%A1%EF%B8%8F+Fast+%F0%9F%9A%80+Customizable+%F0%9F%8E%A8" alt="Typing animation">
@@ -19,7 +16,7 @@
 
 <p>
   <img src="https://img.shields.io/badge/Node.js-22.x-brightgreen.svg?style=flat-square" alt="Node.js 22.x">
-  <img alt="version" src="https://img.shields.io/badge/dynamic/json?color=a78bfa&label=version&prefix=v&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Flazyanik%2FSATURO-BOT-V2%2Fmain%2Fpackage.json&style=flat-square&cacheSeconds=300">
+  <img alt="version" src="https://img.shields.io/github/package-json/v/lazyanik/SATURO-BOT-V2?color=a78bfa&label=version&prefix=v&style=flat-square&cacheSeconds=300">
   <img alt="license" src="https://img.shields.io/badge/license-MIT-green?style=flat-square">
   <img alt="platform" src="https://img.shields.io/badge/platform-Node.js%20%7C%20Docker-informational?style=flat-square">
 </p>
@@ -513,7 +510,7 @@ If you use or modify this project, please keep the original author and developer
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/lazyanik/SATURO-BOT-V2/main/assets/footer-hearts.svg" width="100%" alt="SATURO BOT V2 Footer">
+<img src="./assets/footer-hearts.svg" width="100%" alt="SATURO BOT V2 Footer">
 
 ### 🕊️✨ SATURO BOT V2 ✨🕊️
 
