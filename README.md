@@ -16,7 +16,7 @@
 
 <p>
   <img src="https://img.shields.io/badge/Node.js-22.x-brightgreen.svg?style=flat-square" alt="Node.js 22.x">
-  <img alt="version" src="https://img.shields.io/github/package-json/v/lazyanik/SATURO-BOT-V2?color=a78bfa&label=version&prefix=v&style=flat-square&cacheSeconds=300">
+  <img alt="version" src="https://img.shields.io/badge/version-v2.0.0-a78bfa?style=flat-square">
   <img alt="license" src="https://img.shields.io/badge/license-MIT-green?style=flat-square">
   <img alt="platform" src="https://img.shields.io/badge/platform-Node.js%20%7C%20Docker-informational?style=flat-square">
 </p>
