@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=A78BFA&height=130&section=header&animation=twinkling" width="100%" alt="SATURO BOT V2 Header">
-
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=2200&pause=500&color=F472B6&center=true&vCenter=true&width=600&height=45&lines=%F0%9F%92%96+%F0%9F%92%9C+%F0%9F%92%96+%F0%9F%92%9C+%F0%9F%92%96+%F0%9F%92%9C+%F0%9F%92%96+%F0%9F%92%9C+%F0%9F%92%96;%F0%9F%92%9C+%F0%9F%92%96+%F0%9F%92%9C+%F0%9F%92%96+%F0%9F%92%9C+%F0%9F%92%96+%F0%9F%92%9C+%F0%9F%92%96+%F0%9F%92%9C" alt="Hearts">
 
 <img src="https://i.ibb.co/RQ28H2p/banner.png" alt="SATURO BOT V2 Banner">
@@ -513,8 +511,6 @@ If you use or modify this project, please keep the original author and developer
 <div align="center">
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=2200&pause=500&color=A78BFA&center=true&vCenter=true&width=600&height=45&lines=%F0%9F%92%9C+%F0%9F%92%96+%F0%9F%92%9C+%F0%9F%92%96+%F0%9F%92%9C+%F0%9F%92%96+%F0%9F%92%9C+%F0%9F%92%96+%F0%9F%92%9C;%F0%9F%92%96+%F0%9F%92%9C+%F0%9F%92%96+%F0%9F%92%9C+%F0%9F%92%96+%F0%9F%92%9C+%F0%9F%92%96+%F0%9F%92%9C+%F0%9F%92%96" alt="Hearts">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=F472B6&height=130&section=footer&reversal=true&animation=twinkling" width="100%" alt="SATURO BOT V2 Footer">
 
 ### 🕊️✨ SATURO BOT V2 ✨🕊️
 
