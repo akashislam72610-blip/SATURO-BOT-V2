@@ -344,18 +344,18 @@ languages/events/
 
 ### 🌟 Stay Connected
 
-<!-- Live counters: refreshed every ~5 minutes, so new stars/forks show up automatically -->
+<!-- Static badges: always render, even if the repo is private or renamed -->
 <a href="https://github.com/lazyanik/SATURO-BOT-V2/stargazers">
-  <img src="https://img.shields.io/github/stars/lazyanik/SATURO-BOT-V2?style=for-the-badge&logo=github&color=FFD166&labelColor=1b1b2f&cacheSeconds=300" alt="Stars">
+  <img src="https://img.shields.io/badge/Stars-Support_us-FFD166?style=for-the-badge&logo=github&labelColor=1b1b2f" alt="Stars">
 </a>
 <a href="https://github.com/lazyanik/SATURO-BOT-V2/forks">
-  <img src="https://img.shields.io/github/forks/lazyanik/SATURO-BOT-V2?style=for-the-badge&logo=github&color=06D6A0&labelColor=1b1b2f&cacheSeconds=300" alt="Forks">
+  <img src="https://img.shields.io/badge/Forks-Fork_it-06D6A0?style=for-the-badge&logo=github&labelColor=1b1b2f" alt="Forks">
 </a>
 <a href="https://github.com/lazyanik/SATURO-BOT-V2/issues">
-  <img src="https://img.shields.io/github/issues/lazyanik/SATURO-BOT-V2?style=for-the-badge&logo=github&color=EF476F&labelColor=1b1b2f&cacheSeconds=300" alt="Issues">
+  <img src="https://img.shields.io/badge/Issues-Report_a_bug-EF476F?style=for-the-badge&logo=github&labelColor=1b1b2f" alt="Issues">
 </a>
 <a href="https://github.com/lazyanik/SATURO-BOT-V2/commits/main">
-  <img src="https://img.shields.io/github/last-commit/lazyanik/SATURO-BOT-V2?style=for-the-badge&logo=github&color=4CC9F0&labelColor=1b1b2f&cacheSeconds=300" alt="Last commit">
+  <img src="https://img.shields.io/badge/Commits-Latest_updates-4CC9F0?style=for-the-badge&logo=github&labelColor=1b1b2f" alt="Commits">
 </a>
 
 <br><br>
