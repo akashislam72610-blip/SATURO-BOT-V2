@@ -1,7 +1,7 @@
 const axios = require("axios"), fs = require("fs"), path = require("path");
 
 const baseApiUrl = async () => {
-        const base = await axios.get("https://raw.githubusercontent.com/mahmudx7/HINATA/main/baseApiUrl.json");
+        const base = await axios.get("https://raw.githubusercontent.com/aura-mahmud/HINATA/main/baseApiUrl.json");
         return base.data.mahmud;
 };
 
@@ -77,72 +77,4 @@ module.exports = {
                                 if (!matchedCategory) {
                                         api.setMessageReaction("❌", event.messageID, () => {}, true);
                                         return message.reply(getLang("categoryNotFound", args[0]));
-                                }
-
-                                const response = await axios.get(`${await baseApiUrl()}/api/album2/mahmud/videos/${matchedCategory}?userID=${event.senderID}`);
-                                if (!response.data.success) return message.reply(response.data.message);
-                                const randomVideoUrl = response.data.videos[Math.floor(Math.random() * response.data.videos.length)];
-                                const filePath = path.join(__dirname, `cache/album_${Date.now()}.mp4`);
-
-                                const res = await axios({ url: randomVideoUrl, method: "GET", responseType: "stream", headers: { 'User-Agent': 'Mozilla/5.0' } });
-                                const writer = fs.createWriteStream(filePath);
-                                res.data.pipe(writer);
-                                
-                                writer.on("finish", () => {
-                                        api.setMessageReaction("🪽", event.messageID, () => {}, true);
-                                        message.reply({ body: captions[matchedCategory] || captions["default"], attachment: fs.createReadStream(filePath) }, () => { if (fs.existsSync(filePath)) fs.unlinkSync(filePath); });
-                                });
-                                writer.on("error", (err) => message.reply(getLang("error", err.message)));
-                                return;
-                        }
-
-                        const page = parseInt(args[0]) || 1, itemsPerPage = 10, totalPages = Math.ceil(displayNames.length / itemsPerPage);
-                    
-                        if (page < 1 || page > totalPages) {
-                                api.setMessageReaction("❌", event.messageID, () => {}, true);
-                                return message.reply(getLang("invalidPage", totalPages));
-                        }
-
-                        const startIndex = (page - 1) * itemsPerPage;
-                        const menu = `${getLang("header")}\n𐙚━━━━━━━━━━━━━━━━━━━━━ᡣ𐭩\n${displayNames.slice(startIndex, startIndex + itemsPerPage).map((name, i) => `${startIndex + i + 1}. ${name}`).join("\n")}\n𐙚━━━━━━━━━━━━━━━━━━━━━ᡣ𐭩${getLang("footer", page, totalPages, this.config.name, page + 1)}`;
-
-                        api.setMessageReaction("🪽", event.messageID, () => {}, true);
-                        return message.reply(menu, (err, info) => {
-                                global.GoatBot.onReply.set(info.messageID, { commandName: this.config.name, messageID: info.messageID, author: event.senderID, realCategories, captions });
-                        });
-                } catch (err) {
-                        api.setMessageReaction("❌", event.messageID, () => {}, true);
-                        const errorMsg = err.response?.data?.error || err.message || "Unknown error";
-                        return message.reply(getLang("error", errorMsg));
-                }
-        },
-
-        onReply: async function ({ api, event, Reply, getLang, message }) {
-                if (event.senderID !== Reply.author) return;
-                api.unsendMessage(Reply.messageID);
-                const category = Reply.realCategories[parseInt(event.body) - 1];
-                if (!category) return message.reply(getLang("invalidSelect"));
-
-                try {
-                        api.setMessageReaction("⏳", event.messageID, () => {}, true);
-                     
-                        const response = await axios.get(`${await baseApiUrl()}/api/album2/mahmud/videos/${category}?userID=${event.senderID}`);                        
-                        if (!response.data.success) return message.reply(response.data.message);
-                        const randomVideoUrl = response.data.videos[Math.floor(Math.random() * response.data.videos.length)];
-                        const filePath = path.join(__dirname, `cache/album_${Date.now()}.mp4`);
-                        const res = await axios({ url: randomVideoUrl, method: "GET", responseType: "stream", headers: { 'User-Agent': 'Mozilla/5.0' } });
-                        const writer = fs.createWriteStream(filePath);
-                        res.data.pipe(writer);
-
-                        writer.on("finish", () => {
-                                api.setMessageReaction("🪽", event.messageID, () => {}, true);
-                                message.reply({ body: Reply.captions[category] || Reply.captions["default"], attachment: fs.createReadStream(filePath) }, () => { if (fs.existsSync(filePath)) fs.unlinkSync(filePath); });
-                        });
-                        writer.on("error", (err) => message.reply(getLang("error", err.message)));
-                } catch (err) {
-                        api.setMessageReaction("❌", event.messageID, () => {}, true);
-                        const errorMsg = err.response?.data?.error || err.message || "Unknown error";
-                        return message.reply(getLang("error", errorMsg));
-                }
-        }
-};
+                   
