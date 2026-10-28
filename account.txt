@@ -1,7 +1,128 @@
-paste your fbstate cookie 🍪 
-
-
-paste your fbstate cookie 🍪 
-
-
-paste your fbstate cookie 🍪
+[
+    {
+        "key": "dbln",
+        "value": "%7B%2261595337657123%22%3A%22a5mIo9E8%22%2C%2261595420798529%22%3A%224Y3MUVFX%22%7D",
+        "domain": "facebook.com",
+        "path": "/login/device-based/",
+        "hostOnly": false,
+        "creation": "2026-10-28T16:00:27.731Z",
+        "lastAccessed": "2026-10-28T16:00:27.731Z"
+    },
+    {
+        "key": "sb",
+        "value": "3yXKarqCVBEA3E_I2mnAnLIQ",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2026-10-28T16:00:27.732Z",
+        "lastAccessed": "2026-10-28T16:00:27.732Z"
+    },
+    {
+        "key": "datr",
+        "value": "bybKat0Yt9LzmW3qQta-E0_m",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2026-10-28T16:00:27.732Z",
+        "lastAccessed": "2026-10-28T16:00:27.732Z"
+    },
+    {
+        "key": "pas",
+        "value": "61595337657123%3AQ3X4O7p940",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2026-10-28T16:00:27.732Z",
+        "lastAccessed": "2026-10-28T16:00:27.732Z"
+    },
+    {
+        "key": "vpd",
+        "value": "v1%3B711x360x2",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2026-10-28T16:00:27.732Z",
+        "lastAccessed": "2026-10-28T16:00:27.732Z"
+    },
+    {
+        "key": "wl_cbv",
+        "value": "v2%3Bclient_version%3A3320%3Btimestamp%3A1791734125",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2026-10-28T16:00:27.732Z",
+        "lastAccessed": "2026-10-28T16:00:27.732Z"
+    },
+    {
+        "key": "ps_l",
+        "value": "1",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2026-10-28T16:00:27.732Z",
+        "lastAccessed": "2026-10-28T16:00:27.732Z"
+    },
+    {
+        "key": "ps_n",
+        "value": "1",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2026-10-28T16:00:27.732Z",
+        "lastAccessed": "2026-10-28T16:00:27.732Z"
+    },
+    {
+        "key": "dpr",
+        "value": "2",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2026-10-28T16:00:27.732Z",
+        "lastAccessed": "2026-10-28T16:00:27.732Z"
+    },
+    {
+        "key": "c_user",
+        "value": "61595420798529",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2026-10-28T16:00:27.732Z",
+        "lastAccessed": "2026-10-28T16:00:27.732Z"
+    },
+    {
+        "key": "xs",
+        "value": "18%3AmlWI1YroZ5_8Hw%3A2%3A1792944937%3A-1%3A-1%3A%3AAczkkRDCaV1MiTq3i_M2-o38vCKZ8JSZXc4znc61ZA",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2026-10-28T16:00:27.732Z",
+        "lastAccessed": "2026-10-28T16:00:27.732Z"
+    },
+    {
+        "key": "wd",
+        "value": "980x1783",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2026-10-28T16:00:27.732Z",
+        "lastAccessed": "2026-10-28T16:00:27.732Z"
+    },
+    {
+        "key": "fr",
+        "value": "1hjZ9marTEy6T892e.AWf6UQcboFqoGbxn3IvC0I7GXCuCmAJrW5A4TBDzjCu_wpH0U1M.Bq4Ajb..AAA.0.0.Bq4hv7.AWenkrNOIpQzOOozz9FWPhccAMk",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2026-10-28T16:00:27.732Z",
+        "lastAccessed": "2026-10-28T16:00:27.732Z"
+    },
+    {
+        "key": "presence",
+        "value": "C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1793203223801%2C%22v%22%3A1%7D",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2026-10-28T16:00:27.732Z",
+        "lastAccessed": "2026-10-28T16:00:27.732Z"
+    }
+]
